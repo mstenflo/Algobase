@@ -33,3 +33,16 @@
 .card-title {
   color: #fff;
 }
+
+.section {
+  height: 100vh;
+  margin-top: 0;
+}
+
+.splash {
+  background-image: url('./images/background-image.jpg');
+}
+
+#validParentheses {
+  background-image: url('./images/validParentheses.jpg');
+}

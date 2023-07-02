@@ -7,15 +7,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-image: url('../public/images/background-image.jpg');
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
-main {
-  flex: 1;
+section {
+  min-height: 100vh;
+  margin-top: 1rem;
 }
