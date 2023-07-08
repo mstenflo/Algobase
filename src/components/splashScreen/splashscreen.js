@@ -4,7 +4,7 @@ import Jumbotron from '../jumbotron/jumbotron';
 export class Splashscreen extends Component {
   render() {
     return (
-      <div className='section splash'>
+      <div className='splash full-height'>
         <Jumbotron />
       </div>
     )

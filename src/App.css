@@ -1,6 +1,13 @@
 .navbar {
   background-color: #000;
 }
+.bottom-logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  height: 100px;
+}
 .logo {
   height: 30px;
 }
@@ -12,16 +19,7 @@
 .jumbotron h1, .jumbotron p {
   font-weight: bold;
 }
-.btn-primary {
-  background-color: #ff5e5e;
-  border-color: #ff5e5e;
-}
-.btn-primary:hover, .btn-primary:focus {
-  background-color: #e14040;
-  border-color: #e14040;
-}
 .section-heading {
-  color: #ff5e5e;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -30,19 +28,39 @@
   border-color: #ff5e5e;
   color: #fff;
 }
-.card-title {
-  color: #fff;
-}
-
 .section {
   height: 100vh;
-  margin-top: 0;
+}
+
+.full-height {
+  height: 100%;
 }
 
 .splash {
   background-image: url('./images/background-image.jpg');
+  background-attachment: fixed;
 }
 
 #validParentheses {
   background-image: url('./images/validParentheses.jpg');
+}
+
+#longestCommonPrefix {
+  background-image: url('./images/longest-prefix.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.algo-background {
+  display: table;
+  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0 0 100% 100%;
+  color: #fff;
+}
+
+.modal-style {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  text-align: start;
 }
