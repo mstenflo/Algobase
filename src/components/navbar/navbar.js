@@ -24,8 +24,10 @@ class Navbar extends Component {
                 <a className="nav-link" href="#algo" id="algorithmsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Algorithms
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="algorithmsDropdown">
-                  <li><Link className="dropdown-item" href="#validParentheses" id='validParentheses' to='validParentheses'>Valid Parentheses</Link></li>
+                <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="algorithmsDropdown">
+                  <li><Link to='/' className="dropdown-item">Home</Link></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><Link className="dropdown-item" href="#validParentheses" to='validParentheses'>Valid Parentheses</Link></li>
                   <li><Link className="dropdown-item" href="#longestCommonPrefix" to='longestCommonPrefix'>Longest Common Prefix</Link></li>
 
                 </ul>
